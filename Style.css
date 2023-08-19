@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbar{
+    background-color:grey;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list{
+    margin: 10px;
+}
+
+.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 19px;
+    padding: 10px;
+}
+
+.nav-link:hover{
+    color: grey;
+    background-color: #fff;
+    border-radius: 5px 10px 5px 10px;
+    transition: .1s ease-in-out;
+}
+
+#logo>a
+{
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Heading
+{
+    color: whitesmoke;
+}
+
+.page-1
+{
+    width: 99vw;
+}
+
+.heading{
+    text-align: center;
+    padding: 20px;
+}
+.table {
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #ddd;
+  }
+
+  .th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100vw;
+    text-align: left;
+  }
+   
+  .Center
+  {
+    text-align: center;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+
+
+  .nested-title
+  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+  }
+
+  .nested-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+  }
+  .nested-th, .nested-td {
+    border: none;
+    padding: 3px;
+  }
+  .nested-th {
+    font-weight: normal;
+  }
+  .nested-td {
+    padding-left: 10px;
+  }
+
+
+  .page-2
+{
+    width: 95vw;
+}
+  .registration-form {
+    width: 95vw;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .registration-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .registration-form input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .registration-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .registration-form button:hover {
+    background-color: #0056b3;
+  }
